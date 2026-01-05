@@ -1,1 +1,27 @@
+# ===============================
+# macOS system files
+# ===============================
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# ===============================
+# R / RStudio files
+# ===============================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ===============================
+# Temporary / cache files
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===============================
+# Coursework report (ignored)
+# ===============================
+IJC445_Report.docx
