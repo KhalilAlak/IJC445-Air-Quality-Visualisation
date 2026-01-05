@@ -53,6 +53,7 @@ Visuals are constructed using:
 ---
 
 ## 🗂 Repository Structure
+```
 IJC445-Air-Quality-Visualisation/
 │
 ├── data/
@@ -90,6 +91,7 @@ IJC445-Air-Quality-Visualisation/
 │
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -128,41 +130,52 @@ install.packages(c(
   "rnaturalearthdata",
   "hexbin"
 ))
+```
 
-2️⃣ Set working directory
+### 2️⃣ Set working directory
+```r
 setwd("path/to/IJC445-Air-Quality-Visualisation")
+```
 
-3️⃣ Run scripts in order
+### 3️⃣ Run scripts in order
+```r
 source("scripts/01_visualisation_assert.R")
 source("scripts/02_visualisation_assert_advanced.R")
 source("scripts/02_wind_storyB_figures.R")
 source("scripts/03_map_visualisations.R")
 source("scripts/04_map_anomaly_pm25.R")
+```
 
-All figures will be saved automatically to:
+All figures will be saved automatically to:  
 outputs/figures/
 
 🎓 Learning Outcomes Demonstrated
-	•	Application of ASSERT framework
-	•	Effective use of Grammar of Graphics
-	•	Ethical and accessible visual design
-	•	Spatial and temporal data visualisation
-	•	Storytelling with composite visuals
-	•	Reproducible analytical workflow
+- Application of ASSERT framework
+- Effective use of Grammar of Graphics
+- Ethical and accessible visual design
+- Spatial and temporal data visualisation
+- Storytelling with composite visuals
+- Reproducible analytical workflow
 
 ⸻
 
 ⚠️ Notes
-	•	Figures are designed for static academic reporting, not dashboards
-	•	Data are aggregated to city-level daily means
-	•	Interpretations are descriptive, not causal
+- Figures are designed for static academic reporting, not dashboards
+- Data are aggregated to city-level daily means
+- Interpretations are descriptive, not causal
 
 ⸻
 
 📬 Contact
 
-Khalil Alakbarzade
-MSc Data Science
+Khalil Alakbarzade  
+MSc Data Science  
 University of Sheffield
 
 GitHub: https://github.com/KhalilAlak
+
+---
+
+## License
+
+This repository is for academic coursework and portfolio demonstration.
