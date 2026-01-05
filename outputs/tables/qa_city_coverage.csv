@@ -1,0 +1,5 @@
+city,start_date,end_date,n_days,pm25_missing_pct,wind_missing_pct
+Birmingham,2016-02-28,2025-12-16,3368,0,0
+London,2016-01-31,2025-12-16,3453,0,0
+Manchester,2016-02-28,2025-12-16,3343,0,0
+Sheffield,2016-02-28,2025-12-16,3369,0,0
