@@ -234,5 +234,5 @@ summary_tbl <- df_viz %>%
 
 readr::write_csv(summary_tbl, "outputs/tables/city_summary_pm25_wind.csv")
 
-message("\nDONE ✅ IJC445 visuals saved to outputs/figures/")
+message("\nDONE IJC445 visuals saved to outputs/figures/")
 message("Tables saved to outputs/tables/")

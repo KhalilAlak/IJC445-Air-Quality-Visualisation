@@ -145,7 +145,7 @@ ggsave(
   dpi = 300
 )
 
-message("DONE ✅ Saved:\n- outputs/figures/Fig13_map_pm25_seasonal_anomaly.png\n- outputs/tables/Table_pm25_seasonal_anomaly.csv")
+message("DONE Saved:\n- outputs/figures/Fig13_map_pm25_seasonal_anomaly.png\n- outputs/tables/Table_pm25_seasonal_anomaly.csv")
 
 
 

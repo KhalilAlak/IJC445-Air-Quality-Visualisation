@@ -208,4 +208,4 @@ p_season <- ggplot() +
 
 ggsave("outputs/figures/Fig12_map_pm25_seasonal_smallmultiples.png", p_season, width = 10.5, height = 7.5, dpi = 300)
 
-message("DONE ✅ Map figures saved to outputs/figures and summary table saved to outputs/tables.")
+message("DONE Map figures saved to outputs/figures and summary table saved to outputs/tables.")

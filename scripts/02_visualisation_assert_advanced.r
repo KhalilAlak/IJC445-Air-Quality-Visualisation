@@ -243,5 +243,5 @@ ggsave(
   dpi = 300
 )
 
-message("\nDONE ✅ Advanced wind visualisations saved to outputs/figures/")
+message("\nDONE Advanced wind visualisations saved to outputs/figures/")
 message("Table saved to outputs/tables/Table_wind_bins_effect.csv")

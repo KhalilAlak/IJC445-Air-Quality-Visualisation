@@ -141,4 +141,4 @@ p8 <- ggplot(df_binned, aes(x = wind_mean_bin, y = pm25_mean_bin)) +
 
 ggsave("outputs/figures/Fig08_wind_effect_city_by_season.png", p8, width = 13, height = 9, dpi = 300)
 
-message("DONE ✅ Figures saved to outputs/figures and table saved to outputs/tables.")
+message("DONE Figures saved to outputs/figures and table saved to outputs/tables.")
